@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(105, 105, 105, 0.705);
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            text-align: center;
+        }
+        nav {
+            background-color: rgb(85, 83, 83);
+            padding: 3px;
+            box-shadow: 2px 2px 5px black;
+            border-radius: 3px 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(88, 88, 88);
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 2px 10px 0px 20px;
+            box-shadow: 2px 1px 10px black;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            margin: 10px;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site do Desenvolvedor</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            esportes politica e tecnologia
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticas sobre o Luan</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatibus ratione debitis rem, assumenda, provident labore qui odio obcaecati quo earum, vitae non. Exercitationem unde officia minima laborum. Dolorum, error.</p>
+                <aside>
+                    <p>artigo escrito por luan silva em teste </p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <P>Desenvolvido por luan silva</P>
+    </footer>
+<div id="bola"></div>
+</body>
+</html>
