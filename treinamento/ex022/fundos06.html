@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundos 06</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div#fora {
+            height: 100vh;
+            background-color: #8d7df5;
+            position: relative;
+            
+        }
+
+        div#dentro {
+            height: 200px;
+            width: 300px;
+            background-color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        div#bola {
+            background-color: red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        div#q1 {
+            height: 200px;
+            width: 300px;
+            background-color:black ;
+            position: absolute;
+            left:50% ;
+            transform: translate(-50%);
+        }
+
+        div.faixa1 {
+            height:200px ;
+            width:200px ;
+            background-color: red;
+        }
+
+        div.faixa2 {
+            height: 200px;
+            width: 100px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="fora">   
+            <div id="q1">
+                <div class="faixa1">
+                    <div class="faixa2">
+
+                    </div>
+                </div>
+            </div>
+        
+        <div id="dentro">   
+            <div id="bola">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
