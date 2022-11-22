@@ -48,6 +48,11 @@ section.normal {
     color: black;
 }
 
+section.imagem > p {
+    width: 500px;
+    background-color: black;
+}
+
 section#imagem {
     background-color: black;
     color: white;
