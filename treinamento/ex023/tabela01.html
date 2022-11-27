@@ -8,12 +8,19 @@
     <style>
 
         table {
-            width: 300px;
+            width: 500px;
+            height: 300px;
             border-collapse: collapse;
         }
         td {
             border: 1px solid darkkhaki;
             padding: 5px;
+            text-align: center;
+            vertical-align: top;
+        }
+        td.numero {
+            text-align: right;
+            vertical-align: middle;
         }
         
     </style>
@@ -27,15 +34,15 @@
             TABLE ROW = linha da tabela
             TABLE DATA = dado da tabela
         -->
-        <tr class="topo">
-            <td>A1</td>
+        <tr>
+            <td class="numero">3.1415</td>
             <td>A2</td>
             <td>A3</td>
             <td>A4</td>
             <td>A5</td>
         </tr>
         <tr>
-            <td>B1</td>
+            <td class="numero">1.000</td>
             <td>B2</td>
             <td>B3</td>
             <td>B4</td>
