@@ -17,7 +17,7 @@
 
          th, td {
             border: 1px solid black;
-            padding: 7px;
+            padding: 7px;   
          }
 
          caption {
@@ -30,6 +30,14 @@
          thead, tfoot {
             background-color: dimgray;
          }
+
+         thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+         }
+
          td.num {
             text-align: right;
          }
