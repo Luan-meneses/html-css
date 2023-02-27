@@ -1,3 +1,4 @@
     for (c=1;c<=10;c++) {
-        console.log('ola mundp')
+        console.log('ola mundo')
     }
+
